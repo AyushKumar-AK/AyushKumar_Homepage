@@ -60,7 +60,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/rishav.jpg"
+              src="/images/me.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -137,7 +137,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @rishavnandi
+                @Ayush_Kumar_AK
               </Button>
             </Link>
           </ListItem>
@@ -148,7 +148,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @rishav__nandi
+                @Ayush_Kumar_AK
               </Button>
             </Link>
           </ListItem>
@@ -159,7 +159,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @rishav__nandi
+                @Ayush_Kumar_AK
               </Button>
             </Link>
           </ListItem>

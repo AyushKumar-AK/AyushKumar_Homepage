@@ -33,7 +33,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Rishav Nandi
+            Ayush Kumar
           </Text>
         </LogoBox>
       </a>
