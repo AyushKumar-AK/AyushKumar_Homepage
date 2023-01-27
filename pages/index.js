@@ -64,7 +64,7 @@ const Home = () => (
               alt="Profile image"
               borderRadius="full"
               width="100%"
-              height="100%"
+              height="150%"
             />
           </Box>
         </Box>
