@@ -1,7 +1,7 @@
 {
-  "name": "rishavnandi-homepage",
+  "name": "ayushkumar-homepage",
   "version": "1.0.0",
-  "description": "Rishav's website",
+  "description": "Ayush's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Rishav Nandi",
+  "author": "Ayush Kumar",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
