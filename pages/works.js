@@ -3,9 +3,9 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbwsl from '../public/images/works/wsl.png'
-import thumbwg from '../public/images/works/Wireguard.jpg'
-import thumbansible from '../public/images/works/ansible.png'
+import thumbwsl from '../public/images/works/tictactoe.png'
+import thumbwg from '../public/images/works/chatbot.png'
+import thumbansible from '../public/images/works/phonebook_management.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -16,27 +16,28 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="boiler_plates" title="Boiler Plates" thumbnail={thumbwg}>
-            BASH scripts to automate the setup of a homeserver
+          <WorkGridItem id="TicTacToe" title="TicTacToe" thumbnail={thumbwsl}>
+            Tic-tac-toe game app developed using flutter.
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="ansiblevpn"
-            title="Ansible Selfhost VPN"
-            thumbnail={thumbansible}
+            id="chatbot"
+            title="Python Chatbot"
+            thumbnail={thumbwg}
           >
-            Ansible playbooks to automate the setup of a Wireguard VPN server with a web interface
+            A chatbot developed using python. It recognizes phrases and respond to it. 
+            This chatbot has 10 happy to go responses for most asked questions.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="wsl"
-            title="WSL2 Automated Setup"
-            thumbnail={thumbwsl}
+            id="phonebook"
+            title="Phonebook Management System"
+            thumbnail={thumbansible}
           >
-            BASH scripts to automate the setup of WSL2 and Windows Terminal
+            A phonebook management system made using double linked list.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
