@@ -75,10 +75,8 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Rishav Nandi is a Computer Science Sophomore and the Machine Learning Co-Lead
-          of the Google Developer Student Club at his University. He is also a Devops and
-          System Administration enthusiast and has been working on various projects based
-          on BASH scripting, Python, Ansible, Terraform and Docker.
+          Ayush Kumar is a Computer Science Sophomore and active member of NSS and Ek Bharat Shresth Bharat club. He have a strong understanding of the latest web technologies and programming languages. He have a 
+          keen eye for detail and a deep understanding of how to create visually appealing and user-friendly websites.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -94,24 +92,27 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2003</BioYear>
+          <BioYear>2004</BioYear>
           Born in Jamshedpur, India.
+        </BioSection>
+        <BioSection>
+          <BioYear>2019</BioYear>
+          Completed 10th grade from Jamshedpur Public School
+          with aggregate of 85.8%.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
           Completed High School from Jamshedpur Public School
-          with aggregate of 80%.
-
-          Created his first homelab and started learning about Devops and System Administration.
-          His BASH scripts that automate the process of setting up a new server have been starred by more
-          than 50 people on GitHub.
+          with aggregate of 86%.
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          I took part in the Smart India Hackathon and advanced to the college level.
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Elected as the Machine Learning Co-Lead of the Google Developer Student Club at his University.
-
-          Created Ansible playbooks to automate the process of setting up a new Wireguard server that has been
-          starred by nearly 40 people on GitHub.
+          Current CGPA: 8.71
+          3rd Sem SGPA: 9.25
         </BioSection>
       </Section>
 
@@ -120,8 +121,8 @@ const Home = () => (
           Likes
         </Heading>
         <Paragraph>
-          Reading about New Tech Products and Apps, watching MKBHD videos, playing video games,
-          tinkering with electronics and learning new things and Machine Learning.
+        Enjoys reading about new technologies and building PCs. Also have a passion for traveling and 
+        discovering new things, and enjoy watching horror movies and trying different types of food.
         </Paragraph>
       </Section>
 
@@ -131,7 +132,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/rishavnandi" target="_blank">
+            <Link href="https://github.com/AyushKumar-AK" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -142,7 +143,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/rishav__nandi" target="_blank">
+            <Link href="https://twitter.com/Ayush_Kumar_AK" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -153,7 +154,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/rishav__nandi" target="_blank">
+            <Link href="https://instagram.com/ayush._.ak" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
