@@ -11,21 +11,19 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="WSL Scripts">
+    <Layout title="Phonebook Management System">
       <Container>
         <Title>
-          WSL Automation Scripts <Badge>2022-</Badge>
+          Phonebook Management System <Badge>2022-</Badge>
         </Title>
         <P>
-          BASH scripts to automate the post installation of WSL2 and Windows Terminal.
-          These scripts setup starship prompt and fish shell and customize the Windows Terminal the way I like it.
-          It also setups WSL2 to work with Vagrant.
+        A phonebook management system made using double linked list in C programming language.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://www.github.com/rishavnandi/wsl_dotfiles">
-              https://www.github.com/rishavnandi/wsl_dotfiles <ExternalLinkIcon mx="2px" />
+            <Link href="https://github.com/AyushKumar-AK/PhoneBook">
+              https://github.com/AyushKumar-AK/PhoneBook <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -34,7 +32,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>BASH scripting, Powershell scripting</span>
+            <span>C programming language</span>
           </ListItem>
         </List>
       </Container>

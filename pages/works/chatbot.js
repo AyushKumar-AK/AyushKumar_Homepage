@@ -11,30 +11,29 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Boiler Plates">
+    <Layout title="Python Chatbot">
       <Container>
         <Title>
-          HomeLab Automation Scripts <Badge>2021-</Badge>
+          Python Chatbot <Badge>2021-</Badge>
         </Title>
         <P>
-          BASH scripts to automate setup of my homelab environment. It installs Docker and Docker Compose.
-          It creates a docker network for the containers and creates folders and compose files for the containers
-          and deploys them.
+        A chatbot developed using python. 
+        It recognizes phrases and respond to it. This chatbot has 10 happy to go responses for most asked questions.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://www.github.com/rishavnandi/boiler_plates">
-              https://www.github.com/rishavnandi/boiler_plates <ExternalLinkIcon mx="2px" />
+            <Link href="https://github.com/AyushKumar-AK/ChatBot">
+              https://github.com/AyushKumar-AK/ChatBot <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Linux</span>
+            <span>Windows</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>BASH scripting, Docker</span>
+            <span>Python</span>
           </ListItem>
         </List>
       </Container>

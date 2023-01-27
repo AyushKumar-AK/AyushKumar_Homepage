@@ -11,29 +11,28 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Ansible VPN">
+    <Layout title="TicTacToe">
       <Container>
         <Title>
-          Ansible Selfhost VPN <Badge>2022-</Badge>
+          Tic-Tac-Toe Apk <Badge>2021-</Badge>
         </Title>
         <P>
-          Ansible playbooks to setup a VPS as a Wireguard VPN server with a simple web interface.
-          Uses wg-easy project for the web interface.
+          Tic-Tac-Toe app developed using flutter which can predict all outcomes.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Source</Meta>
-            <Link href="https://www.github.com/rishavnandi/ansible_selfhost_vpn">
-              https://www.github.com/rishavnandi/ansible_selfhost_vpn <ExternalLinkIcon mx="2px" />
+            <Link href="https://github.com/AyushKumar-AK/Flutter_Project">
+              https://github.com/AyushKumar-AK/Flutter_Project <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Linux</span>
+            <span>Android/iOS</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Ansible</span>
+            <span>Flutter</span>
           </ListItem>
         </List>
       </Container>

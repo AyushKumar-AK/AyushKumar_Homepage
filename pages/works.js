@@ -16,7 +16,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="TicTacToe" title="TicTacToe" thumbnail={thumbwsl}>
+          <WorkGridItem id="tictactoe" title="TicTacToe" thumbnail={thumbwsl}>
             Tic-tac-toe game app developed using flutter.
           </WorkGridItem>
         </Section>
