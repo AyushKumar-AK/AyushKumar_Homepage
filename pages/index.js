@@ -111,7 +111,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Current CGPA: 8.71 \n
+          Current CGPA: 8.71
           3rd Sem SGPA: 9.25
         </BioSection>
       </Section>
