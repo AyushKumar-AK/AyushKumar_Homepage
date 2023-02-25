@@ -6,7 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbwsl from '../public/images/works/tictactoe.png'
 import thumbwg from '../public/images/works/chatbot.png'
 import thumbansible from '../public/images/works/phonebook_management.png'
-import thumbwh from '../public/images/works/Wireguard.png'
+import thumbwh from '../public/images/works/Wireguard.jpg'
 
 const Works = () => (
   <Layout title="Works">
