@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbwsl from '../public/images/works/tictactoe.png'
 import thumbwg from '../public/images/works/chatbot.png'
 import thumbansible from '../public/images/works/phonebook_management.png'
+import thumbwh from '../public/images/works/Wireguard.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -28,6 +29,16 @@ const Works = () => (
           >
             A chatbot developed using python. It recognizes phrases and respond to it. 
             This chatbot has 10 happy to go responses for most asked questions.
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem
+            id="vpn"
+            title="Ancible Selfhost VPN"
+            thumbnail={thumbwh}
+          >
+            Ansible Playbooks To Turn A VPS Into A Wireguard VPN Server
           </WorkGridItem>
         </Section>
 
