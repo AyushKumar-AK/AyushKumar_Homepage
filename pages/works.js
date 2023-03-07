@@ -5,7 +5,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbwsl from '../public/images/works/tictactoe.png'
 import thumbwg from '../public/images/works/chatbot.png'
-import thumbansible from '../public/images/works/phonebook_management.png'
+import thumbansible from '../public/images/works/weatherapp.png'
 import thumbwh from '../public/images/works/Wireguard.jpg'
 
 const Works = () => (
@@ -44,11 +44,11 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="phonebook"
-            title="Phonebook Management System"
+            id="weatherapp"
+            title="Weather App"
             thumbnail={thumbansible}
           >
-            A phonebook management system made using double linked list.
+            A Weather app built using HTML, CSS, and JavaScript
           </WorkGridItem>
         </Section>
       </SimpleGrid>
