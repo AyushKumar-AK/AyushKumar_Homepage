@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbwsl from '../public/images/works/tictactoe.png'
-import thumbwg from '../public/images/works/chatbot.png'
+import thumbwg from '../public/images/works/newsletter.png'
 import thumbansible from '../public/images/works/weather_app.png'
 import thumbwh from '../public/images/works/Wireguard.jpg'
 
@@ -23,12 +23,11 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="chatbot"
-            title="Python Chatbot"
+            id="newsletter"
+            title="Newsletter Signup" 
             thumbnail={thumbwg}
           >
-            A chatbot developed using python. It recognizes phrases and respond to it. 
-            This chatbot has 10 happy to go responses for most asked questions.
+            A newsletter signup web application built using HTML, CSS, Node.js, Express, and the Mailchimp API.
           </WorkGridItem>
         </Section>
 
