@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbwsl from '../public/images/works/tictactoe.png'
-import thumbwg from '../public/images/works/newsletter.png'
+import thumbwg from '../public/images/works/newsletter.jpg'
 import thumbansible from '../public/images/works/weather_app.png'
 import thumbwh from '../public/images/works/Wireguard.jpg'
 
